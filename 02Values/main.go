@@ -9,7 +9,7 @@ func main() {
 	fmt.Println("Println (6.28318530718/2.0 =)", 6.28318530718/2.0)
 	fmt.Printf("Printf (6.28318530718/2.0 = %.2f)\n", 6.28318530718/2.0)
 
-	fmt.Println(true && true)
+	fmt.Println(true && false)
 	fmt.Println(true || false)
 	fmt.Println(!true)
 }

@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"math"
 	"reflect"
 )
 
@@ -22,4 +23,5 @@ func main() {
 	fmt.Println("After explicit conversion")
 	fmt.Println(reflect.TypeOf(a)) // it gets converted to int64
 
+	fmt.Println(math.Sin(n)) // make sure to give correct type that a method or func expects!!
 }

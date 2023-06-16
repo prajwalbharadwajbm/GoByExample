@@ -34,5 +34,8 @@ func main() {
 
 **Variables declared inside an if short statement are also available inside any of the else blocks.*
 
+## There is no ternary if in Go, so you’ll need to use a full if statement even for basic conditions.
+:frowning:
+
 Try some exercise,
 [Go flowcontrol exercise](https://go.dev/tour/flowcontrol/8)

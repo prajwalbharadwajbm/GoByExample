@@ -36,7 +36,7 @@ A string constant encloses some text between double quotes. (Go also has raw str
 ```sh
 "Hello, World!"
 ```
-According to our knowledge we feel it of type string or note it as a string constant, **but its not!!!!**
+According to our knowledge we feel it to be of type string,  **but its not!!!!**
 
 It is a untyped string constant, which means it is just a constant textual type that does not have any fixed type.
 

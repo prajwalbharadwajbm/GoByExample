@@ -41,6 +41,7 @@ In golang, arrays can be created in 2 ways:
   ```go
   array_name := [length]Type
   ```
+  Thus helping us to declare and initialize on the same line
 ---
 In Golang arrays are mutable, so we can set value for a given index i.e. We can set a value at an index using the `array[index] = value` syntax, and get a value with `array[index]`.
   ```go

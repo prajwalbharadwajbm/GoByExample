@@ -26,8 +26,10 @@ var b [20]int
 fmt.Println(reflect.TypeOf(b))
 ```
 Output:
-![Alt text](image.png)
-
+```bash
+[10]int
+[20]int
+```
 ---
 
 In golang, arrays can be created in 2 ways:
